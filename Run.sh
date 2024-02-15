@@ -48,8 +48,8 @@ display_banner
 
 printf "\n\e[1;95mEnter License: \e[0m" && read -p "" License
 
-if [[ ! "$License" =~ ^[A-Za-z0-9]+$ ]]; then
-print_Message "1;31" "Error:Enter A Valid License" "1"
+if [[ ! "$License" =~ ^[A-Za-z0-9]{32}$ ]]; then
+print_Message "1;31" "Error:Enter A Valid 32-Character License" "1"
 exit 1
 fi
 
