@@ -17,7 +17,7 @@
 ## 🚦Feature:
 - **✅Display Title**
 - **✅Display First Name**
-- **✅Display First Nick**
+- **✅Display First Nick Name**
 - **✅Display User ID**
 
 ---
