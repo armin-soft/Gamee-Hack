@@ -1,11 +1,6 @@
 ## 🖼Screen Shot:
 ![Photo](https://github.com/armin-soft/Gamee-Hack/blob/Default/Photo/Terminal.png?raw=true "Title")
 
-## 💡Parameter
-- **✏️License**
-- **✏️Score**
-- **✏️Url**
-
 ## 🔌Installing:
 
 ```bash
@@ -14,6 +9,17 @@
 ❯ chmod +x Run.sh
 ❯ ./Run.sh
 ```
+
+## 💡Parameter
+- **✏️License**
+- **✏️Score**
+- **✏️Url**
+
+## 🚦Featurs
+- **✅Display Title**
+- **✅Display First Name**
+- **✅Display First Nick**
+- **✅Display User ID**
 
 ## 🤔About:
 <b>🧑‍💻Design And Programming Of Software Robots<br>🧑‍💻Computer And Mobile Software Design<br>🧑‍💻Internet Web Services Design<br>🧑‍💻Web Design
