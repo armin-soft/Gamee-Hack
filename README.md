@@ -15,7 +15,7 @@
 - **✏️Score**
 - **✏️Url**
 
-## 🚦Featur
+## 🚦Feature
 - **✅Display Title**
 - **✅Display First Name**
 - **✅Display First Nick**
