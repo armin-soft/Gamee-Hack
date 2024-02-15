@@ -9,10 +9,10 @@
 ## 🔌Installing:
 
 ```bash
-❯ git clone https://github.com/armin-soft/Gamee-Hack.git
-❯ cd Gamee-Hck
-❯ chmod +x Run.sh
-❯ ./Run.sh
+❯ `git clone https://github.com/armin-soft/Gamee-Hack.git`
+❯ `cd Gamee-Hck`
+❯ `chmod +x Run.sh`
+❯ `./Run.sh`
 ```
 
 ## 🤔About:
