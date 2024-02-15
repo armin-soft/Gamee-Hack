@@ -2,9 +2,9 @@
 ![Photo](https://github.com/armin-soft/Gamee-Hack/blob/Default/Photo/Terminal.png?raw=true "Title")
 
 ## 💡Parameter
-- **✏️Enter License**
-- **✏️Enter Score**
-- **✏️Enter Url**
+- **✏️License**
+- **✏️Score**
+- **✏️Url**
 
 ## 🔌Installing:
 
