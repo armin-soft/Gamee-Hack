@@ -15,12 +15,13 @@
 - **✏️Score**
 - **✏️Url**
 
-## 🚦Featurs
+## 🚦Featur
 - **✅Display Title**
 - **✅Display First Name**
 - **✅Display First Nick**
 - **✅Display User ID**
 
+---
 ## 🤔About:
 <b>🧑‍💻Design And Programming Of Software Robots<br>🧑‍💻Computer And Mobile Software Design<br>🧑‍💻Internet Web Services Design<br>🧑‍💻Web Design
 
