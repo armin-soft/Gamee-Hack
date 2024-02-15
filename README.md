@@ -2,7 +2,6 @@
 ![Photo](https://github.com/armin-soft/Gamee-Hack/blob/Default/Photo/Terminal.png?raw=true "Title")
 
 ## 🔌Installing:
-
 ```bash
 ❯ git clone https://github.com/armin-soft/Gamee-Hack.git
 ❯ cd Gamee-Hack
@@ -10,12 +9,12 @@
 ❯ ./Run.sh
 ```
 
-## 💡Parameter
+## 💡Parameter:
 - **✏️License**
 - **✏️Score**
 - **✏️Url**
 
-## 🚦Feature
+## 🚦Feature:
 - **✅Display Title**
 - **✅Display First Name**
 - **✅Display First Nick**
