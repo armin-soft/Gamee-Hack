@@ -46,12 +46,14 @@ main() {
 install_dependencies
 display_banner
 
+while true; do
 printf "\n\e[1;95mEnter License: \e[0m" && read -p "" License
-
 if [[ ! "$License" =~ ^[A-Za-z0-9]{32}$ ]]; then
 print_Message "1;31" "Error:Enter A Valid 32-Character License" "1"
-exit 1
+else
+break
 fi
+done
 
 while true; do
 printf "\e[1;95mEnter Score: \e[0m" && read -p "" Score
