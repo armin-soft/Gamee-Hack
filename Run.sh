@@ -1,14 +1,30 @@
 #!/bin/bash
 
 install_dependencies() {
-if ! command -v jq &> /dev/null; then
-print_Message "1;31" "Error: jq Is Not Installed" "1"
+JQ_Installed=$(command -v jq)
+Figlet_Installed=$(command -v figlet)
+Curl_Installed=$(command -v curl)
+
+if [ -z "$JQ_Installed" ]; then
+print_Message "1;31" "Error:JQ Is Not Installed!" "1"
 print_Message "1;31" "Waiting For Install..." "1"
 sudo apt-get update
 sudo apt-get install -y jq
 fi
 
-if command -v jq &> /dev/null; then
+if [ -z "$Figlet_Installed" ]; then
+print_Message "1;31" "Error:Figlet Is Not Installed!" "1"
+print_Message "1;31" "Waiting For Install..." "1"
+sudo apt-get install -y figlet
+fi
+
+if [ -z "$Curl_Installed" ]; then
+print_Message "1;31" "Error:Curl Is Not Installed!" "1"
+print_Message "1;31" "Waiting For Install..." "1"
+sudo apt-get install -y curl
+fi
+
+if [ -n "$JQ_Installed" ] && [ -n "$Figlet_Installed" ] && [ -n "$Curl_Installed" ]; then
 bash Run.sh
 fi
 }
@@ -24,8 +40,8 @@ display_banner() {
 Fonts=("eftirobot" "graceful" "ivrit" "mirror")
 Random_Font=${Fonts[$((RANDOM % ${#Fonts[@]}))]}
 
-printf "\033[1;33m Project: Gamee Hack\n"
-printf "\033[1;33m Developer: \033[1mARMIN-SOFT | WWW.ARMIN-SOFT.IR\n"
+printf "\033[1;33m Project:Gamee Hack\n"
+printf "\033[1;33m Developer:\033[1mARMIN-SOFT | WWW.ARMIN-SOFT.IR\n"
 printf "\e[36m"
 figlet -f "$Random_Font" "ARMIN-SOFT"
 figlet -f "$Random_Font" "Gamee Hack"
