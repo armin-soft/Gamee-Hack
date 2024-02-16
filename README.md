@@ -15,6 +15,7 @@
 - **✏️Url**
 
 ## 🚦Feature:
+- **⚡️Automatic Installation Of Required Libraries**
 - **✅Display Title**
 - **✅Display First Name**
 - **✅Display First Nick Name**
