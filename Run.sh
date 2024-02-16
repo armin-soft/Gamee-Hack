@@ -2,10 +2,14 @@
 
 install_dependencies() {
 if ! command -v jq &> /dev/null; then
-print_Message "1;31" "Error:jq Is Not Installed" "1"
+print_Message "1;31" "Error: jq Is Not Installed" "1"
 print_Message "1;31" "Waiting For Install..." "1"
 sudo apt-get update
 sudo apt-get install -y jq
+fi
+
+if command -v jq &> /dev/null; then
+bash Run.sh
 fi
 }
 
@@ -17,11 +21,14 @@ printf "\n\033[${Format};${Color}m%s\033[0m\n" "$Message"
 }
 
 display_banner() {
+Fonts=("eftirobot" "graceful" "ivrit" "mirror")
+Random_Font=${Fonts[$((RANDOM % ${#Fonts[@]}))]}
+
 printf "\033[1;33m Project: Gamee Hack\n"
 printf "\033[1;33m Developer: \033[1mARMIN-SOFT | WWW.ARMIN-SOFT.IR\n"
 printf "\e[36m"
-figlet -f slant "ARMIN-SOFT"
-figlet -f slant "Gamee Hack"
+figlet -f "$Random_Font" "ARMIN-SOFT"
+figlet -f "$Random_Font" "Gamee Hack"
 }
 
 display_progress() {
