@@ -2,10 +2,17 @@
 
 install_dependencies() {
 if ! command -v jq &> /dev/null; then
-print_Message "1;31" "Error: jq Is Not Installed" "1"
+print_Message "1;31" "Error: JQ Is Not Installed." "1"
 print_Message "1;31" "Waiting For Install..." "1"
 sudo apt-get update
 sudo apt-get install -y jq
+fi
+
+if ! command -v curl &> /dev/null; then
+print_Message "1;31" "Error:Curl Is Not Installed." "1"
+print_Message "1;31" "Waiting For Install..." "1"
+sudo apt-get update
+sudo apt-get install -y curl
 fi
 }
 
@@ -18,18 +25,18 @@ printf "\n\033[${Format};${Color}m%s\033[0m\n" "$Message"
 
 display_banner() {
 
-printf "\033[1;33m Project: Gamee Hack\n"
-printf "\033[1;33m Developer: \033[1mARMIN-SOFT | WWW.ARMIN-SOFT.IR\n"
+printf "\033[1;33m Project:Gamee Hack\n"
+printf "\033[1;33m Developer:\033[1mARMIN-SOFT | WWW.ARMIN-SOFT.IR\n"
 printf "\e[36m"
 printf "
-  __   ____  _  _  __  __ _       ____   __  ____  ____ 
+  __   ____  _  _  __  __ _   ____   __  ____  ____ 
  / _\ (  _ \( \/ )(  )(  ( \ ___ / ___) /  \(  __)(_  _)
-/    \ )   // \/ \ )( /    /(___)\___ \(  O )) _)   )(  
-\_/\_/(__\_)\_)(_/(__)\_)__)     (____/ \__/(__)   (__) 
+/\ )   // \/ \ )( //(___)\___ \(  O )) _)   )(  
+\_/\_/(__\_)\_)(_/(__)\_)__) (____/ \__/(__)   (__) 
 
-  ___   __   _  _  ____  ____    _  _   __    ___  __ _ 
+  ___   __   _  _  ____  _____  _   _____  __ _ 
  / __) / _\ ( \/ )(  __)(  __)  / )( \ / _\  / __)(  / )
-( (_ \/    \/ \/ \ ) _)  ) _)   ) __ (/    \( (__  )  ( 
+( (_ \/\/ \/ \ ) _)  ) _)   ) __ (/\( (__  )  ( 
  \___/\_/\_/\_)(_/(____)(____)  \_)(_/\_/\_/ \___)(__\_)
 "
 }
@@ -125,42 +132,42 @@ Error=$(echo "$Response" | jq -r '.Result.Message')
 case "$Error" in
 "خطا:لایسنس معتبر نمی باشد")
 printf "\033[1;31m
- _      ____ 
+ _  ____ 
 / \  /|/  _ \
 | |\ ||| / \|
 | | \||| \_/|
 \_/  \|\____/
-             
+ 
 Error:The License Is Not Valid\033[0m\n";;
 
 "خطا:کاربر توسط @Gamee مسدود شده است")
 printf "\033[1;31m
- _      ____ 
+ _  ____ 
 / \  /|/  _ \
 | |\ ||| / \|
 | | \||| \_/|
 \_/  \|\____/
-             
+ 
 Error:User Has Been Banned By @Gamee\033[0m\n";;
 
 "خطا:لینک بازی صحیح نمی باشد")
 printf "\033[1;31m
- _      ____ 
+ _  ____ 
 / \  /|/  _ \
 | |\ ||| / \|
 | | \||| \_/|
 \_/  \|\____/
-             
+ 
 Error:The Game Link Is Not Correct\033[0m\n";;
 
 "خطا:سرویس در دسترس نمی باشد")
 printf "\033[1;31m
- _      ____ 
+ _  ____ 
 / \  /|/  _ \
 | |\ ||| / \|
 | | \||| \_/|
 \_/  \|\____/
-             
+ 
 Error:The Service Is Not Available\033[0m\n";;
 *)
 ;;
