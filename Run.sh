@@ -125,25 +125,43 @@ Error=$(echo "$Response" | jq -r '.Result.Message')
 case "$Error" in
 "خطا:لایسنس معتبر نمی باشد")
 printf "\033[1;31m
- ____  _  __
-/  _ \/ |/ /
-| / \||   / 
-| \_/||   \ 
-\____/\_|\_\
-
-Error:The License Is Not Valid\033[0m\n"
-;;
+ _      ____ 
+/ \  /|/  _ \
+| |\ ||| / \|
+| | \||| \_/|
+\_/  \|\____/
+             
+Error:The License Is Not Valid\033[0m\n";;
 
 "خطا:کاربر توسط @Gamee مسدود شده است")
 printf "\033[1;31m
- ____  _  __
-/  _ \/ |/ /
-| / \||   / 
-| \_/||   \ 
-\____/\_|\_\
+ _      ____ 
+/ \  /|/  _ \
+| |\ ||| / \|
+| | \||| \_/|
+\_/  \|\____/
+             
+Error:User Has Been Banned By @Gamee\033[0m\n";;
 
-Error:User Has Been Banned By @Gamee\033[0m\n"
-;;
+"خطا:لینک بازی صحیح نمی باشد")
+printf "\033[1;31m
+ _      ____ 
+/ \  /|/  _ \
+| |\ ||| / \|
+| | \||| \_/|
+\_/  \|\____/
+             
+Error:The Game Link Is Not Correct\033[0m\n";;
+
+"خطا:سرویس در دسترس نمی باشد")
+printf "\033[1;31m
+ _      ____ 
+/ \  /|/  _ \
+| |\ ||| / \|
+| | \||| \_/|
+\_/  \|\____/
+             
+Error:The Service Is Not Available\033[0m\n";;
 *)
 ;;
 esac
