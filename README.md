@@ -5,7 +5,7 @@
 ## 🖼Screen Shot:
 ![Photo](https://github.com/armin-soft/Gamee-Hack/blob/Default/Photo/Terminal.png?raw=true "Title")
 
-## 🔌Installing:
+## 🔌Install Steps:
 ```bash
 ❯ git clone https://github.com/armin-soft/Gamee-Hack.git
 ❯ cd Gamee-Hack
