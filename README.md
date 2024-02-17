@@ -5,6 +5,7 @@
 ## 🖼Screen Shot:
 ![Photo](https://github.com/armin-soft/Gamee-Hack/blob/Default/Photo/Terminal.png?raw=true "Title")
 
+---
 ## 🔌Install Steps:
 ```bash
 ❯ git clone https://github.com/armin-soft/Gamee-Hack.git
@@ -13,16 +14,19 @@
 ❯ ./Run.sh
 ```
 
+---
 ## 🔌Install With One Click:
 ```bash
 ❯ git clone https://github.com/armin-soft/Gamee-Hack.git && cd Gamee-Hack && chmod +x Run.sh &&./Run.sh
 ```
 
+---
 ## 💡Parameter:
 - **✏️License**
 - **✏️Score**
 - **✏️Url**
 
+---
 ## 🚦Feature:
 - **⚡️Automatic Installation Of Required Libraries**
 - **✅Display Title**
