@@ -13,6 +13,11 @@
 ❯ ./Run.sh
 ```
 
+## 🔌Install Or One Click
+```bash
+❯ git clone https://github.com/armin-soft/Gamee-Hack.git && cd Gamee-Hack && chmod +x Run.sh &&./Run.sh
+```
+
 ## 💡Parameter:
 - **✏️License**
 - **✏️Score**
