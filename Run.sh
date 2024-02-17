@@ -104,7 +104,14 @@ Nick_Name=$(echo "$Response" | jq -r '.Result.User_Information.Nick_Name')
 User_ID=$(echo "$Response" | jq -r '.Result.User_Information.User_ID')
 
 if [ "$Ok" == "true" ]; then
-printf "\033[1;32mThe Game Score Increased.\033[0m\n\n"
+printf "\033[1;32m
+ ____  _  __
+/  _ \/ |/ /
+| / \||   / 
+| \_/||   \ 
+\____/\_|\_\
+
+The Game Score Increased.\033[0m\n\n"
 printf "\033[1;32mGame Information:\033[0m\n\n"
 printf "\033[1;32mTitle:$Title\033[0m\n"
 printf "\033[1;32m=================================\033[0m\n"
@@ -117,11 +124,25 @@ else
 Error=$(echo "$Response" | jq -r '.Result.Message')
 case "$Error" in
 "خطا:لایسنس معتبر نمی باشد")
-printf "\033[1;31mError:The License Is Not Valid\033[0m\n"
+printf "\033[1;31m
+ ____  _  __
+/  _ \/ |/ /
+| / \||   / 
+| \_/||   \ 
+\____/\_|\_\
+
+Error:The License Is Not Valid\033[0m\n"
 ;;
 
 "خطا:کاربر توسط @Gamee مسدود شده است")
-printf "\033[1;31mError:User Has Been Banned By @Gamee\033[0m\n"
+printf "\033[1;31m
+ ____  _  __
+/  _ \/ |/ /
+| / \||   / 
+| \_/||   \ 
+\____/\_|\_\
+
+Error:User Has Been Banned By @Gamee\033[0m\n"
 ;;
 *)
 ;;
