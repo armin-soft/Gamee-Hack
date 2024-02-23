@@ -6,7 +6,7 @@
 
 ---
 ## 🎥Video Sample:
-![Photo](https://github.com/armin-soft/Gamee-Hack/blob/Default/Video/Sample.mp4?raw=true "Title")
+![Video](https://github.com/armin-soft/Gamee-Hack/blob/Default/Video/Sample.mp4?raw=true "Title")
 <br/><br/>
 
 ## 🖼Photo Sample:
