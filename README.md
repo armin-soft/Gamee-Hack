@@ -6,7 +6,7 @@
 
 ---
 ## 🖼Screen Shot:
-![Photo](https://github.com/armin-soft/Gamee-Hack/blob/Default/Photo/Terminal.png?raw=true "Title")
+![Photo](https://github.com/armin-soft/Gamee-Hack/blob/Default/Photo/Sample.png?raw=true "Title")
 
 ---
 ## 🔌Install Steps:
