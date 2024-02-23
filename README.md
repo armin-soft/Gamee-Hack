@@ -1,9 +1,10 @@
 ![Photo](https://github.com/armin-soft/Gamee-Hack/blob/Default/Photo/Cover.jpg?raw=true "Title")
 
+---
 ## 🔩Language:Shell
 [![Gamee Hack](https://img.shields.io/badge/Gamee%20Hack-ARMIN--SOFT%20(Shell)-830006?labelColor=0101010&style=flat&logo=shell&link=https://github.com/armin-soft/Gamee-Hack)](https://github.com/armin-soft/Gamee-Hack)
-<br/><br/>
 
+---
 ## 🖼Screen Shot:
 ![Photo](https://github.com/armin-soft/Gamee-Hack/blob/Default/Photo/Terminal.png?raw=true "Title")
 
