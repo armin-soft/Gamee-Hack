@@ -117,6 +117,7 @@ printf "\033[1;32m
  | |_| | . \ 
   \___/|_|\_\
              
+             
 The Game Score Increased.\033[0m\n\n"
 printf "\033[1;32mGame Information:\033[0m\n\n"
 printf "\033[1;32mTitle:$Title\033[0m\n"
