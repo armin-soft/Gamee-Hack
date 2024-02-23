@@ -17,7 +17,7 @@
 ---
 ## 🔌Install With One Click:
 ```bash
-❯ git clone https://github.com/armin-soft/Gamee-Hack.git && cd Gamee-Hack && chmod +x Run.sh &&./Run.sh
+❯ git clone https://github.com/armin-soft/Gamee-Hack.git && cd Gamee-Hack && chmod +x Run.sh && ./Run.sh
 ```
 
 ---
