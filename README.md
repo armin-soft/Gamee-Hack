@@ -1,4 +1,4 @@
-![Photo](https://github.com/armin-soft/Gamee-Hack/blob/Default/Photo/Cover.jpg?raw=true "Title")
+![Cover](https://github.com/armin-soft/Gamee-Hack/assets/41316026/8da4ccc1-2914-4c5f-a8ca-d19ff528f35b)
 
 ---
 ## 🔩Language:Shell
@@ -8,11 +8,9 @@
 ## 🎥Video Sample:
 https://github.com/armin-soft/Gamee-Hack/assets/41316026/2889f213-51b0-4193-a2e9-3fb379c98aa9
 
+---
 ## 🖼Photo Sample:
-![Photo](https://github.com/armin-soft/Gamee-Hack/blob/Default/Photo/Sample.png?raw=true "Title")
-
 ![Terminal](https://github.com/armin-soft/Gamee-Hack/assets/41316026/41d07c8f-8e2a-46e9-8d28-9d706ab0aa36)
-![Cover](https://github.com/armin-soft/Gamee-Hack/assets/41316026/8da4ccc1-2914-4c5f-a8ca-d19ff528f35b)
 
 ---
 ## 🔌Install Steps:
