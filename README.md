@@ -38,7 +38,7 @@ https://github.com/armin-soft/Gamee-Hack/assets/41316026/2889f213-51b0-4193-a2e9
 - **⚡️Automatic Installation Of Required Libraries**
 - **✅Display Title**
 - **✅Display First Name**
-- **✅Display First Nick Name**
+- **✅Display Nick Name**
 - **✅Display User ID**
 
 ---
