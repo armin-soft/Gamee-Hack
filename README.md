@@ -15,6 +15,9 @@ https://github.com/armin-soft/Gamee-Hack/assets/41316026/2889f213-51b0-4193-a2e9
 ---
 ## 🔌Install Steps:
 ```bash
+❯ sudo apt update
+❯ sudo apt upgrade
+❯ apt install git
 ❯ git clone https://github.com/armin-soft/Gamee-Hack
 ❯ cd Gamee-Hack
 ❯ chmod +x Run.sh
@@ -24,7 +27,7 @@ https://github.com/armin-soft/Gamee-Hack/assets/41316026/2889f213-51b0-4193-a2e9
 ---
 ## 🔌Install With One Click:
 ```bash
-❯ git clone https://github.com/armin-soft/Gamee-Hack && cd Gamee-Hack && chmod +x Run.sh && ./Run.sh
+❯ sudo apt update && sudo apt upgrade && apt install git && git clone https://github.com/armin-soft/Gamee-Hack && cd Gamee-Hack && chmod +x Run.sh && ./Run.sh
 ```
 
 ---
